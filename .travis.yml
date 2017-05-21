@@ -36,4 +36,3 @@ script:
   - yarn build
   - xvfb-maybe node_modules/.bin/karma start test/unit/karma.conf.js # unit tests
   - yarn run pack && xvfb-maybe node_modules/.bin/mocha test/e2e # e2e tests
-  - yarn lint
