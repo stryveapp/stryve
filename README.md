@@ -6,22 +6,30 @@
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:9080
-npm run dev
+yarn dev
 
 # build electron app for production
-npm run build
+yarn build
 
-# lint all JS/Vue component files in `app/src`
-npm run lint
+# build web app for production
+yarn build:web
 
-# run webpack in production
-npm run pack
+# lint all JS/Vue
+yarn lint
+
+# run unit tests
+yarn unit
+
+# run e2e tests
+yarn e2e
+
+# run all tests
+yarn test
 ```
-More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/docs/npm_scripts.html).
 
 ---
 
-This project was generated from [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about this project can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+This project was generated from [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). The documentation for electron-vue can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
